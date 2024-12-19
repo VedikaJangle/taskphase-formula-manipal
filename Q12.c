@@ -7,7 +7,7 @@ int main() {
     for (a = 1; a <= n; a++) {
         
         for (b = 1; b <= n - a; b++) { // space
-            printf("^");
+            printf(" ");
         }
         
         for (c = 1; c <= 2 * a - 1; c++) { //star
